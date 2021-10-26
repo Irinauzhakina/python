@@ -1,0 +1,5 @@
+a = int (input ('vvedite kolichestvo sekund'))
+c = (a//60)
+b = (c//24)
+d = (a - (b * 24) - (c * 60))
+print (str (b) + ":" + str (c) + ":" + str (d))
